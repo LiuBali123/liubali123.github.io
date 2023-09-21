@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+table{
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+}
+
+ul{
+    text-align: left;
+}
+
+a:link{
+    color:yellow;
+}
+
+a:visited{
+    color:orangered;
+}
+
+figcaption {
+    display: none;
+}
+
+.container{
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color: yellow;
+    font-family: Arial, sans-serif;
+}
+
+.display-1{
+    margin-top: 2rem;
+    font-size: 6em;
+}
+
+h2{
+    color: yellow;
+    font-family: Verdana, sans-serif;
+}
+
+aside{
+    border-style: groove;
+    padding: 1em;
+    font-size: 1.5em;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr{
+    font-size: 2em;
+}
+
+li.nav-item{
+    border: 0.1em solid white;
+    font-size: 2em;
+}
+
+.navbar{
+    background-color: black !important;
+}
+
+.table{
+    color: white;
+}
+
+caption{
+    color: white;
+}
+
+.btn{
+    color: white;
+}
+
+/* xhtml */
+
+.xugras{
+    position: absolute;
+    top:200px;
+    font-size: 1.5em;
+    opacity: 0;
+}
+
+.xugras:focus{
+    opacity: 1;
+}
+
+.xgomb{
+    height:150px;
+    width:200px;
+    font-size: 2em;
+}
+
+.xh1{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-size: 5em;
+    font-family: 'Times New Roman', serif;
+}
+
+.xp{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-size: 3em;
+    font-family: Verdana, sans-serif;
+}
+
+#activate-high-contrast {
+    display: none;
+}
+  

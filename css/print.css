@@ -1,0 +1,102 @@
+@media print{
+body{
+    background-color: white;
+    color:black;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    width: 100vw; 
+    height: auto;
+}
+
+.container{
+    margin: 1em;
+    padding: 1em;
+    font-size: 1em;
+}
+
+figure{
+    margin-bottom: 0;
+}
+
+.mb-5{
+    margin-bottom:1rem !important;
+}
+
+.display-1{
+    font-size: 25px;
+}
+
+.display-3{
+    font-size: 20px;
+}
+
+.fs-3{
+    font-size: 15px !important;
+}
+
+.fs-4{
+    font-size: 15px !important;
+}
+
+tr{
+    font-size: 15px;
+}
+
+caption{
+    font-size: 15px;
+}
+
+form{
+    font-size: 15px;
+}
+
+video{
+    display: none;
+}
+
+footer{
+    display: none !important;
+}
+
+nav{
+    display: none !important;
+}
+
+.hatter_title{
+    display: none !important;
+}
+
+.hatter_notitle{
+    display: none !important;
+}
+
+.pkep{
+    max-width: 40%;
+    height: auto;
+}
+
+.pkepw{
+    max-width: 100px;
+    height: auto;
+}
+
+.pkeph{
+    max-height: 100px;
+    width: auto;
+}
+
+h1{
+    font-family: Arial, sans-serif;
+}
+
+.pagebreak{
+    page-break-before: always;
+}
+
+.noprint{
+    display: none !important;
+}
+}

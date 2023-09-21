@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="menu" style="padding: 20px;">
+        <h1>Játékleírás:</h1>
+        <ul>
+            <li>A királynak négyzet alapú szobái vannak, amelyek fekete és fehér cellákból állnak.</li>
+            <li>A fehér cellákba villanykörtéket lehet elhelyezni.</li>
+            <li>A villanykörtékből a fény átlósan nem terjed, csak az adott sor és oszlop mentén.</li>
+            <li>A fekete cellákon valamilyen tereptárgy van, ami akadályozza a fény terjedését.</li>
+            <li>A fekete cellák opcionálisan egy egész számot is tartalmazhatnak 0-tól 4-ig. Ez azt jelzi, hogy hány
+                szomszédos (alul, felül, jobbra, balra) cella tartalmaz villanykörtét. Ha van ilyen szám, akkor be kell
+                tartani!</li>
+            <li>Két villanykörte soha nem világíthatja meg egymást!</li>
+            <li>A játék célja a villanykörtéket úgy elhelyezni, hogy minden fehér cellát megvilágítsanak.</li>
+        </ul>
+        <form>
+            <label for="name1">Név: </label>
+            <input type="text" id="name" placeholder="Játékos neve" value="Játékos">
+            <label for="map">Pálya: </label>
+            <select name="map" id="map">
+                <option value="map1">Könnyű</option>
+                <option value="map2">Haladó</option>
+                <option value="map3">Extrém</option>
+            </select>
+            <input type="button" id="start" value="Új Játék Indítása">
+            Van mentett játék:<a id="isSaved"></a>
+            <input type="button" id="continue" value="Mentett Játék Folytatása" disabled>
+        </form>
+        <h1>Korábbi játékok:</h1>
+        <ul id="games">
+
+        </ul>
+    </div>
+
+    <div style="padding: 20px;" id="game" hidden>
+        <h1 id="output"></h1>
+        <table>
+            <tbody></tbody>
+        </table>
+        <h1 id="time"></h1>
+        <input type="button" value="Játék mentése" id="saveGame">
+    </div>
+</body>
+<script type="module" src="index.js"></script>
+
+</html>

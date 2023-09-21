@@ -1,17 +1,9 @@
 body {
-    background-color: #DFCFBE;
+    background-color: #cfccbf;
 }
 
 .hatter_title {
     background-image: url('../img/menu_title_final.png');
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.hatter_notitle {
-    background-image: url('../img/menu_notitle_final.png');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -72,37 +64,6 @@ aside{
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-/* xhtml */
-
-.xugras{
-    position: absolute;
-    top:180px;
-    opacity: 0;
-}
-
-.xugras:focus{
-    opacity: 1;
-}
-
-.xgomb{
-    height:150px;
-    width:200px;
-}
-
-.xh1{
-    margin-left: 10vh;
-    margin-right: 10vh;
-    font-size: 4em;
-    font-family: 'Times New Roman', serif;
-}
-
-.xp{
-    margin-left: 10vh;
-    margin-right: 10vh;
-    font-size: 2em;
-    font-family: Verdana, sans-serif;
 }
 
 #activate-normal{

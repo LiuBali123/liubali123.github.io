@@ -66,6 +66,22 @@ aside{
     margin-right: auto;
 }
 
-#activate-normal{
-	display: none;
+.accordion-body {
+    color: rgb(31, 30, 30);
+    background-color: rgb(230, 244, 245);
+}
+
+.accordion-button.accordion-button:not(.collapsed){
+    color: rgb(31, 30, 30);
+    background-color: rgb(247, 250, 237);
+}
+
+img {
+    max-width: 900px;
+    height: auto;
+}
+
+.bigger {
+    max-width: 100%;
+    height: auto;
 }
